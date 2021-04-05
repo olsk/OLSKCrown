@@ -1,0 +1,7 @@
+{
+  "name": "OLSKCrown",
+  "main": "main.ejs",
+  "dependencies": {
+    "OLSKLanguageSwitcher": "olsk/OLSKLanguageSwitcher"
+  }
+}
