@@ -7,7 +7,7 @@ Object.entries({
 	OLSKCrownCardImage: '.OLSKCrownCardImage',
 	OLSKCrownCardName: '.OLSKCrownCardName',
 }).map(function (e) {
-	return global[e.shift()]  = e.pop();
+	return global[e.shift()] = e.pop();
 });
 
 describe('OLSKCrown_Access', function () {
