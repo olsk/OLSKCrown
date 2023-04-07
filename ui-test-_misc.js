@@ -14,19 +14,19 @@ describe('OLSKCrown_Misc', function () {
 	describe('OLSKCrown', function test_OLSKCrown () {
 		
 		it('classes OLSKToolbar', function () {
-			browser.assert.hasClass(OLSKCrown, 'OLSKToolbar');
+			return browser.assert.hasClass(OLSKCrown, 'OLSKToolbar');
 		});
 
 		it('classes OLSKToolbarJustify', function () {
-			browser.assert.hasClass(OLSKCrown, 'OLSKToolbarJustify');
+			return browser.assert.hasClass(OLSKCrown, 'OLSKToolbarJustify');
 		});
 
 		it('classes OLSKStickyHeader', function () {
-			browser.assert.hasClass(OLSKCrown, 'OLSKStickyHeader');
+			return browser.assert.hasClass(OLSKCrown, 'OLSKStickyHeader');
 		});
 
 		it('classes OLSKCommonEdgeBottom', function () {
-			browser.assert.hasClass(OLSKCrown, 'OLSKCommonEdgeBottom');
+			return browser.assert.hasClass(OLSKCrown, 'OLSKCommonEdgeBottom');
 		});
 	
 	});
@@ -34,11 +34,11 @@ describe('OLSKCrown_Misc', function () {
 	describe('OLSKCrownCard', function test_OLSKCrownCard () {
 		
 		it('classes OLSKCommonCard', function () {
-			browser.assert.hasClass(OLSKCrownCard, 'OLSKCommonCard');
+			return browser.assert.hasClass(OLSKCrownCard, 'OLSKCommonCard');
 		});
 
 		it('classes OLSKCommonCrownCardMini', function () {
-			browser.assert.hasClass(OLSKCrownCard, 'OLSKCommonCrownCardMini');
+			return browser.assert.hasClass(OLSKCrownCard, 'OLSKCommonCrownCardMini');
 		});
 
 	});
@@ -46,11 +46,11 @@ describe('OLSKCrown_Misc', function () {
 	describe('OLSKCrownCardImage', function test_OLSKCrownCardImage () {
 
 		it('sets role', function () {
-			browser.assert.attribute(OLSKCrownCardImage, 'role', 'presentation');
+			return browser.assert.attribute(OLSKCrownCardImage, 'role', 'presentation');
 		});
 
 		it('binds OLSKCrownCardImageURL', function () {
-			browser.assert.attribute(OLSKCrownCardImage, 'src', item.OLSKCrownCardImageURL);
+			return browser.assert.attribute(OLSKCrownCardImage, 'src', item.OLSKCrownCardImageURL);
 		});
 		
 	});
@@ -58,7 +58,7 @@ describe('OLSKCrown_Misc', function () {
 	describe('OLSKCrownCardName', function test_OLSKCrownCardName () {
 
 		it('sets text', function () {
-			browser.assert.text(OLSKCrownCardName, item.OLSKCrownCardNameText);
+			return browser.assert.text(OLSKCrownCardName, item.OLSKCrownCardNameText);
 		});
 		
 	});

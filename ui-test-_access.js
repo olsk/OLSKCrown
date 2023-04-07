@@ -17,19 +17,19 @@ describe('OLSKCrown_Access', function () {
 	});
 	
 	it('shows OLSKCrown', function() {
-		browser.assert.elements(OLSKCrown, 1);
+		return browser.assert.elements(OLSKCrown, 1);
 	});
 
 	it('shows OLSKCrownCardImage', function () {
-		browser.assert.elements(OLSKCrownCardImage, 1);
+		return browser.assert.elements(OLSKCrownCardImage, 1);
 	});
 
 	it('shows OLSKCrownCardName', function () {
-		browser.assert.elements(OLSKCrownCardName, 1);
+		return browser.assert.elements(OLSKCrownCardName, 1);
 	});
 
 	it('shows OLSKLanguageSwitcher', function () {
-		browser.assert.elements('.OLSKLanguageSwitcher', 1);
+		return browser.assert.elements('.OLSKLanguageSwitcher', 1);
 	});
 	
 });
